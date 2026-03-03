@@ -30,7 +30,9 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page ABC DÉVFFSSDA'),
+      home: const MyHomePage(
+        title: 'Flutter Demo Home Page ABC DÉVFFSSDAiaisdiasdiasdia',
+      ),
     );
   }
 }
@@ -114,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
-        tooltip: 'Increment',
+        tooltip: 'Increment +++++++++++++++++',
         child: const Icon(Icons.add),
       ),
     );
